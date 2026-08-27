@@ -4,49 +4,47 @@
 
 </div>
 
-> I build LLM systems end to end — from the agent loop and the prompt layer down
-> to the APIs, the databases, and the deploy. Most of my work is the part that
-> makes language models dependable in production: planning, tool orchestration,
-> memory, structured output, latency, and evaluation.
+> I work on LLM systems in production — the agent loop, the prompt layer, the
+> APIs and datastores under them. Mostly the parts that make language models
+> dependable: planning, tool orchestration, memory, structured output, latency,
+> and evaluation.
 
 **AI Engineer at Strategy** (formerly MicroStrategy) · Pune, India
 
 ---
 
-### ⚡ What I build
+### ⚡ What I work on
 
-- **AutoAgents** — the agentic framework behind Strategy's AI products. A planner
-  turns a complex question into a tool plan and executes it. I'm the sole
-  architect: a ReWOO plan-then-execute loop with a ReAct fallback, tools decoupled
-  behind a single integration point so new ones (web, geospatial, proximity
-  search) plug in without touching the planner, and parallel tool calls that cut
-  response latency by more than half. I also built the MCP layer — AutoAgents as
-  both MCP client and host via `fastmcp`, so it can talk to Atlassian, GitHub,
-  Notion, and others — and **SimpleMem**, a short- and long-term agent memory
-  package (ClickHouse + Redis) now used across three internal AI services.
+- **AutoAgents** — the agent framework behind Strategy's AI products, where a
+  planner turns a complex question into a tool plan and runs it. I've built major
+  pieces of it: the ReWOO/ReAct planning loop, a one-point tool-integration layer
+  so new tools plug in without touching the planner, parallel tool execution for
+  latency, the MCP client/host layer, and **SimpleMem** — a short- and long-term
+  agent-memory package (ClickHouse + Redis) I designed and own, reused across
+  several internal AI services.
 
 - **AutoDash** — turns a natural-language request into a built analytics
-  dashboard. Built it end to end, architecture through deploy: a ReAct
-  orchestration engine over parallel intent agents, run as a two-stage async task
-  with a fallback path for complex sequential work.
+  dashboard. I contributed the ReAct orchestration engine over parallel intent
+  agents, run as a two-stage async task with a fallback for complex sequential work.
 
-- **AutoPrompt** — a microservice that serves the right prompt for whichever model
-  and provider is in play. Prompt versioning plus dynamic rendering keyed on
-  provider and model variant — the piece that makes bring-your-own-LLM work
-  cleanly across every AI product.
+- **AutoPrompt** — a microservice I built for provider-aware prompt management:
+  prompt versioning and dynamic rendering keyed on model and provider, the piece
+  that makes bring-your-own-LLM work across products.
 
-- **CLS AutoBot** (`ai-cls-router`) — reads each incoming support case with an LLM
-  and auto-assigns the right engineer on a 60-second loop. A five-step routing
-  pipeline with a custom workload-scoring algorithm, skill-pool and overflow-chain
-  rules, ~95 REST endpoints across 16 routers, and real-time audit streaming over
-  WebSockets on Redis Streams. Python/FastAPI, PostgreSQL, Redis, Azure OpenAI,
-  on AWS EKS.
+- **Support-case routing** — an LLM service that reads each incoming support case,
+  infers the product area, complexity, and skills involved, scores the available
+  engineers by current workload, and auto-assigns on a short polling loop. Built
+  end to end in async Python — FastAPI, PostgreSQL, Redis.
 
-- **EP Review Processing** — automates the enterprise performance-review cycle. A
-  parallel pipeline scoring 100+ reviews at once against competency frameworks,
-  with multi-format ingestion (Whisper for video, MoviePy for audio, plus
-  documents), language detection and translation, generated DOCX reports, and
-  Teams-bot notifications. Exactly-once state tracking keeps reruns safe.
+- **Bootcamp grading** — an LLM grader for sales-training submissions: it pulls
+  the trainee's pitch from a call transcript, scores it against a rubric, folds in
+  quiz results, and returns a final grade with a written breakdown.
+  Schema-constrained extraction; FastAPI + React.
+
+- **EP review automation** — automates the enterprise performance-review cycle: a
+  parallel pipeline that scores manager feedback against competency frameworks,
+  with video/audio/document ingestion (Whisper, MoviePy), translation, generated
+  DOCX reports, and Teams notifications.
 
 ---
 
