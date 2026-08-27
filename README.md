@@ -91,11 +91,3 @@ knowledge graphs · evaluation (LangSmith, Opik, DeepEval)
 [![Email](https://img.shields.io/badge/Email-varun.motiyani14%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:varun.motiyani14@gmail.com)
 
 Pune, India — open to conversations about AI platform / LLM infrastructure roles.
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=VarunMotiyani&show_icons=true&hide=stars,issues&hide_title=true&hide_border=true&theme=github_dark&custom_title=Activity&count_private=true" alt="GitHub stats" height="150">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VarunMotiyani&theme=github-compact&hide_border=true&area=true" alt="Contribution activity" width="100%">
-
-</div>

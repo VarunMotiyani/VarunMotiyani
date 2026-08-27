@@ -1,15 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Varun Motiyani, AI Engineer at Strategy">
   <rect width="1280" height="320" fill="#0d1117"/>
   <rect x="0" y="0" width="1280" height="4" fill="#f5a623"/>
+
   <g font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
     <text x="80" y="150" fill="#e6edf3" font-size="72" font-weight="700" letter-spacing="0.5">Varun Motiyani</text>
     <text x="82" y="200" fill="#8b949e" font-size="26" font-weight="400">AI Engineer at Strategy &#183; building LLM systems end to end</text>
     <text x="82" y="256" fill="#6e7681" font-size="19" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">agents &#183; orchestration &#183; memory &#183; NL&#8594;SQL &#183; latency &#183; evaluation</text>
   </g>
-  <g fill="none" stroke="#f5a623" stroke-width="2" opacity="0.55">
-    <circle cx="1120" cy="160" r="46"/>
-    <circle cx="1120" cy="160" r="88"/>
-    <circle cx="1120" cy="160" r="130"/>
+
+  <!-- activity radar -->
+  <g transform="translate(1105,165)" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <circle r="88" fill="none" stroke="#30363d" stroke-width="1"/>
+    <circle r="44" fill="none" stroke="#30363d" stroke-width="1" stroke-dasharray="3 4"/>
+    <line x1="0" y1="-88" x2="0" y2="88" stroke="#30363d" stroke-width="1"/>
+    <line x1="-88" y1="0" x2="88" y2="0" stroke="#30363d" stroke-width="1"/>
+    <polygon points="-88,0 0,-8.2 22.5,0 0,85.9" fill="#238636" fill-opacity="0.55" stroke="#3fb950" stroke-width="2" stroke-linejoin="round"/>
+    <g fill="#3fb950">
+      <circle cx="-88" cy="0" r="3.5"/>
+      <circle cx="0" cy="-8.2" r="3.5"/>
+      <circle cx="22.5" cy="0" r="3.5"/>
+      <circle cx="0" cy="85.9" r="3.5"/>
+    </g>
+    <g fill="#8b949e" font-size="13" text-anchor="middle">
+      <text x="0" y="-96">Code review</text>
+      <text x="0" y="112">Pull requests</text>
+      <text x="-96" y="-4" text-anchor="end">Commits</text>
+      <text x="96" y="-4" text-anchor="start">Issues</text>
+    </g>
   </g>
-  <circle cx="1120" cy="160" r="8" fill="#f5a623"/>
 </svg>
