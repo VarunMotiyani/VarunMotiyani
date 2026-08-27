@@ -14,12 +14,12 @@
     <circle r="44" fill="none" stroke="#30363d" stroke-width="1" stroke-dasharray="3 4"/>
     <line x1="0" y1="-88" x2="0" y2="88" stroke="#30363d" stroke-width="1"/>
     <line x1="-88" y1="0" x2="88" y2="0" stroke="#30363d" stroke-width="1"/>
-    <polygon points="-88,0 0,-8.2 22.5,0 0,85.9" fill="#238636" fill-opacity="0.55" stroke="#3fb950" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="-88,0 0,-48.9 5.9,0 0,52.8" fill="#238636" fill-opacity="0.55" stroke="#3fb950" stroke-width="2" stroke-linejoin="round"/>
     <g fill="#3fb950">
       <circle cx="-88" cy="0" r="3.5"/>
-      <circle cx="0" cy="-8.2" r="3.5"/>
-      <circle cx="22.5" cy="0" r="3.5"/>
-      <circle cx="0" cy="85.9" r="3.5"/>
+      <circle cx="0" cy="-48.9" r="3.5"/>
+      <circle cx="5.9" cy="0" r="3.5"/>
+      <circle cx="0" cy="52.8" r="3.5"/>
     </g>
     <g fill="#8b949e" font-size="13" text-anchor="middle">
       <text x="0" y="-96">Code review</text>
