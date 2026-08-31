@@ -11,6 +11,8 @@
 
 **AI Engineer at Strategy** (formerly MicroStrategy) · Pune, India
 
+🌐 &nbsp;[**varunmotiyani.xyz**](https://varunmotiyani.xyz) &nbsp;·&nbsp; portfolio, projects, and writing
+
 ---
 
 ### ⚡ What I work on
@@ -50,6 +52,15 @@
 
 ### 🧪 On the side
 
+- [`fitness-tracker-ios`](https://github.com/VarunMotiyani/fitness-tracker-ios) —
+  an adaptive strength & physique coach for iOS: equipment-aware weekly planning,
+  rolling adaptation around missed sessions and daily readiness, in-gym logging
+  with one-tap machine swaps, and monthly InBody scan analysis. Phone-only, no
+  backend, bring-your-own AI key.
+- [`dev-playbook`](https://github.com/VarunMotiyani/dev-playbook) — a Claude Code
+  plugin that packages one opinionated method for taking a feature from raw idea
+  to reviewed, merged code: a coordinating session plus fresh subagents per task,
+  with human gates at design, spec, and integration.
 - [`llmcontrol`](https://github.com/VarunMotiyani/llmcontrol) — one interface for
   prompts, parameters, and invocation across LLM providers.
 - [`crawller`](https://github.com/VarunMotiyani/crawller) — a small Python web crawler.
@@ -85,6 +96,7 @@ knowledge graphs · evaluation (LangSmith, Opik, DeepEval)
 
 ### 📫 Reach me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-varunmotiyani.xyz-000000?style=flat-square&logo=vercel&logoColor=white)](https://varunmotiyani.xyz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-varun--motiyani14-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/varun-motiyani14/)
 [![Email](https://img.shields.io/badge/Email-varun.motiyani14%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:varun.motiyani14@gmail.com)
 
